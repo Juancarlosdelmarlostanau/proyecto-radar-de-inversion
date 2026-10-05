@@ -29,9 +29,17 @@ informacion grafica:
 API:
 INE (API publica JSON: renta, poblacion, indice de precios de vivienda)
 -renta neta media por hogar, representa el poder adquisitivo real
-aqui esta por distrito, hay que filtrar
+
+aqui esta por distrito, hay que filtrar 2015-2022
 https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=846:
 
 aqui estan por seccion censal por año, hay que filtrar
+
+url2015: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20150101:20150101
+url2016: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20160101:20160101
+url2017: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20170101:20170101
+url2018: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20180101:20180101
+url2019: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20190101:20190101
+url2020: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20200101:20200101
 url2021: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20210101:20210101
 url2022: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20220101:20220101
