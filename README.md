@@ -15,8 +15,9 @@ Cómo leer estos nombres:
 CPRO, LITPRO: código y nombre de provincia.
 CUMUN, LITMUN: código y nombre de municipio (Madrid es 28079)
 CUSEC: código de la sección censal. Tiene 10 dígitos: 5 del municipio + 2 del distrito + 3 de la sección.
-El resto: un indicador + un año al final. Por ejemplo, ALQM2_LV_M_VC_24 sería alquiler en €/m² al mes (ALQM2), mediana (M; 25 y 75 son los percentiles), vivienda colectiva (VC; VU es unifamiliar) y año 2024 (_24). Es una lectura probable por el patrón, confírmala en la hoja "Metadatos", que debe traer el diccionario.
-BI_ALVHEPCO_TVC_11 parece un conteo de contratos (muestra), pero no lo doy por hecho: búscalo en Metadatos, porque lo necesitamos para saber qué secciones tienen datos fiables.
+El resto: un indicador + un año al final. 
+Por ejemplo, ALQM2_LV_M_VC_24 sería alquiler en €/m² al mes (ALQM2)mediana (M; 25 y 75 son los percentiles), vivienda colectiva (VC; VU es unifamiliar) y año 2024 (_24)
+
 
 
 
@@ -35,11 +36,11 @@ https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=846:
 
 aqui estan por seccion censal por año, hay que filtrar
 
-url2015: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20150101:20150101
-url2016: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20160101:20160101
-url2017: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20170101:20170101
-url2018: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20180101:20180101
-url2019: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20190101:20190101
-url2020: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20200101:20200101
-url2021: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20210101:20210101
-url2022: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20220101:20220101
+url2015: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20150101:20150101'
+url2016: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20160101:20160101'
+url2017: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20170101:20170101'
+url2018: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20180101:20180101'
+url2019: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20190101:20190101'
+url2020: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20200101:20200101'
+url2021: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20210101:20210101'
+url2022: 'https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/31097?tip=A&tv=847:&date=20220101:20220101'
