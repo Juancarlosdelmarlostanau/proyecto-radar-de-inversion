@@ -4,6 +4,11 @@ Radar de inversion residencial  para alquileres en madrid : analisis por seccion
 
 ¿donde es mejor invertir en vivienda de alquiler en madrid? "generar un score de atractivo con datos abiertos y un aproyeccion a cinco años"
 
+Pregunta: ¿dónde invertir en alquiler en Madrid?
+Tres dimensiones: precio (métricas 1, 2 y 5), capacidad de pago (3 y 4) y demanda (6).
+Filtro de calidad: la métrica 7.
+Síntesis: el score (8) y la tendencia (9).
+
 SE DESCARGO LOS DATOS DE:
 1. xslx de 'Sistema estatal de referencia del precio del alquiler de vivienda' (SERPAVI)
 - BD Sistema Estatal Índices de Alquiler de Vivienda (Xlsx. 67.8Mb)
@@ -130,5 +135,6 @@ Seccionado de 2021 aplicado a toda la serie, así que el crecimiento histórico 
 Solo vivienda colectiva; algunas secciones sin dato.
 La proyección parte de 8 años con una ruptura (COVID) y excluye cambios regulatorios o de mercado.
 Análisis exploratorio con datos abiertos, no una valoración profesional.
+
 
 
