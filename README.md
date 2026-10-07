@@ -5,10 +5,24 @@ Radar de inversion residencial  para alquileres en madrid : analisis por seccion
 ¿donde es mejor invertir en vivienda de alquiler en madrid? "generar un score de atractivo con datos abiertos y un aproyeccion a cinco años"
 
 HIPOTESIS GENERAL
-El atractivo de una zona para invertir en alquiler residencial, no depende solo de su nivel de precio, sino de la combinacion de:
- - crecimiento sostenido del alquiler
- - capacidad de pago de los hogares
- - demanda demografica
+Entre 2015 y 2022, el atractivo de una sección de Madrid para invertir en alquiler no dependió de su nivel de precio, sino de la combinación de crecimiento del alquiler, capacidad de pago de los hogares y perfil demográfico de la demanda. El análisis por sección revela oportunidades y riesgos que el distrito oculta, y la tendencia 2015-2022 permite estimar, con incertidumbre, el alquiler hacia 2027.
+
+PREGUNTAS
+1. ¿Las secciones más caras son las que más crecieron?
+2. Dispersión intradistrital: (P75 − P25) / mediana por sección, y variación entre secciones de cada distrito
+3. Esfuerzo de alquiler: alquiler mensual del inmueble × 12 / renta neta del hogar
+4. Brecha de crecimiento: crecimiento del alquiler menos crecimiento de la renta del hogar
+5. Índice de perfil de demanda: % de 18 a 64, edad media, tamaño del hogar y % hogares unipersonales, relacionado con nivel y crecimiento
+6. Proyección por distrito en tres escenarios, validada con el error frente a 2023-2024
+
+METRICAS
+1. Crecimiento anual compuesto del alquiler (2015-2019, 2019-2022 y total), comparado con el nivel de partida (SERPAVI)
+2. ¿Cuánto varía el alquiler dentro de un mismo distrito frente a entre distritos?                            (SERPAVI + distrito (de los 7 primeros dígitos del código))
+3. ¿Dónde pueden pagar los hogares el alquiler?                                                               (SERPAVI + renta por sección)
+4. ¿Dónde creció el alquiler más rápido que la renta?                                                         (SERPAVI + renta por sección)
+5. ¿Coincide el perfil demográfico de demanda con los alquileres altos o crecientes?                          (Demografía + SERPAVI)
+6. ¿Qué distritos tendrán más alquiler en 2027 y qué tan fiable es esa estimación?                            (SERPAVI agregado (ponderado por número de alquileres))
+
 
 
 SE DESCARGO LOS DATOS DE:
@@ -63,6 +77,8 @@ Por ejemplo, ALQM2_LV_M_VC_24 sería alquiler en €/m² al mes (ALQM2)mediana (
 3. ARCHIVO CSV :INE, indicadores demograficos del Atlas
 Estructura de  edad, tamaño de hogares, poblacion.
 -Estos datos nos muestran la demanda potencial, Identifica zonas con poblacion joven y hogares pequeños, tipicos del alquiler
+
+el 18-64 mide población en edad de trabajar, no población joven, y los nulos (2,2% en renta y demografía, 1,4% en SERPAVI) se dejan sin imputar.
 
 "AQUI DESARROLLAR MIS CRITERIOS DEL LIMPIEZA"
 ..................................
