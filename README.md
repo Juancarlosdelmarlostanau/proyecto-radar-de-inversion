@@ -88,9 +88,6 @@ el 18-64 mide población en edad de trabajar, no población joven, y los nulos (
 ..................................
 ..................................
 
-4. SI ES QUE TENGO TIEMPO......
-ARCHIVOS SHAPEFILE DE SECCIONES CENSALES
-ME APORTA DE MANERA GRAFICA(MAPAS) LIMITES GEOGRAFICOS
 
 
 
