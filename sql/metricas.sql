@@ -1,0 +1,1 @@
+-- 1. Crecimiento anual compuesto del alquiler
