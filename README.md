@@ -99,14 +99,12 @@ Por ejemplo, ALQM2_LV_M_VC_24 sería alquiler en €/m² al mes (ALQM2)mediana (
 
 
 10. Cómo reproducirlo
-
-1. Descargar los datos originales de SERPAVI y del INE en `data/raw/`.
-2. Ejecutar los notebooks de limpieza para generar `data/clean/`.
-3. Crear la base `radar_madrid_alquileres` en MySQL y ejecutar el script de creación de tablas.
-4. Ejecutar `carga_sql.ipynb` (requiere `pandas`, `sqlalchemy`, `pymysql`).
-5. Ejecutar `sql/metricas.sql` en MySQL Workbench.
+- Descargar los datos originales de SERPAVI y del INE en `data/raw/`.
+- Ejecutar los notebooks de limpieza para generar `data/clean/`.
+- Crear la base `radar_madrid_alquileres` en MySQL y ejecutar el script de creación de tablas.
+- Ejecutar `carga_sql.ipynb` (requiere `pandas`, `sqlalchemy`, `pymysql`).
+- Ejecutar `sql/metricas.sql` en MySQL Workbench.
    
-
-9. Autor
+11. Autor
 
 **JUAN CARLOS DEL MAR LOSTANAU** · Arquitecto con estudios en urbanismo · Bootcamp de Data Analytics, Ironhack
